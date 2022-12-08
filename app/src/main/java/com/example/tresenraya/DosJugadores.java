@@ -77,7 +77,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -100,7 +100,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -123,7 +123,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -146,7 +146,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -170,7 +170,7 @@ public class DosJugadores extends AppCompatActivity {
                     winningGame();
                 }
                 else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -193,7 +193,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -216,7 +216,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -240,7 +240,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -263,7 +263,7 @@ public class DosJugadores extends AppCompatActivity {
                     choosePlayer();
                     winningGame();
                 } else {
-                    Toast.makeText(DosJugadores.this,"Button Already Pressed",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DosJugadores.this,"Esta casilla ya está marcada",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -273,7 +273,7 @@ public class DosJugadores extends AppCompatActivity {
 
         if((b1==1) && (b2==1) && (b3==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -297,7 +297,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b4==1) && (b5==1) && (b6==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -321,7 +321,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b7==1) && (b8==1) && (b9==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -345,7 +345,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b1==1) && (b4==1) && (b7==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -369,7 +369,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b2==1) && (b5==1) && (b8==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -393,7 +393,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b3==1) && (b6==1) && (b9==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -417,7 +417,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b1==1) && (b5==1) && (b9==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -441,7 +441,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b3==1) && (b5==1) && (b7==1)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador X").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -465,7 +465,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b1==0) && (b2==0) && (b3==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -489,7 +489,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b4==0) && (b5==0) && (b6==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -513,7 +513,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b7==0) && (b8==0) && (b9==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -537,7 +537,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b1==0) && (b4==0) && (b7==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -561,7 +561,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b2==0) && (b5==0) && (b8==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -585,7 +585,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b3==0) && (b6==0) && (b9==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -609,7 +609,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b1==0) && (b5==0) && (b9==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -633,7 +633,7 @@ public class DosJugadores extends AppCompatActivity {
 
         else if((b3==0) && (b5==0) && (b7==0)){
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
-            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            builder.setMessage("Gana el jugador O").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     button1.setImageDrawable(null);
@@ -658,7 +658,7 @@ public class DosJugadores extends AppCompatActivity {
         else{
             if(i==9) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(this);
-                builder.setMessage("No One Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                builder.setMessage("Hay empate").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         button1.setImageDrawable(null);

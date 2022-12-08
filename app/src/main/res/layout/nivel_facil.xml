@@ -152,12 +152,12 @@
         android:paddingRight="40dp">
 
         <TextView
-            android:id="@+id/ScoreX"
+            android:id="@+id/ScoreOfYou"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Score X : 0"
+            android:text="Score YOU : 0"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="27sp"
             android:textStyle="bold"
             android:shadowColor="#000000"
             android:shadowDx="2"
@@ -166,12 +166,12 @@
         </TextView>
 
         <TextView
-            android:id="@+id/ScoreY"
+            android:id="@+id/ScoreAndroid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Score O : 0"
+            android:text="Score IA : 0"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="27sp"
             android:textStyle="bold"
             android:shadowColor="#000000"
             android:shadowDx="2"

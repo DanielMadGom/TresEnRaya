@@ -32,7 +32,7 @@ public class Inicio extends AppCompatActivity {
         unJugador.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent unJugador = new Intent(Inicio.this, UnJugador.class);
+                Intent unJugador = new Intent(Inicio.this, MenuUnJugador.class);
                 startActivity(unJugador);
             }
         });
